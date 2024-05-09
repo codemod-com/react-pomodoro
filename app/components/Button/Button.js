@@ -1,7 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-export default class Button extends React.Component {
+interface ButtonProps {
+    onClick(...args: unknown[]): unknown;
+    label: string;
+}
+
+export default class Button extends React.Component<ButtonProps> {
     render() {
         return (
             <button className="btn code" onClick={this.props.onClick}>
@@ -10,8 +14,3 @@ export default class Button extends React.Component {
         );
     }
 }
-
-Button.propTypes = {
-    onClick: PropTypes.func.isRequired,
-    label: PropTypes.string.isRequired
-};

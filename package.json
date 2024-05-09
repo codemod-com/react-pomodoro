@@ -39,8 +39,8 @@
   "dependencies": {
     "mousetrap": "^1.5.3",
     "prop-types": "^15.8.1",
-    "react": "^15.0.1",
-    "react-dom": "^15.0.1",
+    "react": "19.0.0-beta-6946ebe620-20240508",
+    "react-dom": "19.0.0-beta-6946ebe620-20240508",
     "react-github-corner": "^0.3.0",
     "react-title-component": "^1.0.1"
   }

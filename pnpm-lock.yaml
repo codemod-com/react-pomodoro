@@ -15,14 +15,14 @@ importers:
         specifier: ^15.8.1
         version: 15.8.1
       react:
-        specifier: ^15.0.1
-        version: 15.7.0
+        specifier: 19.0.0-beta-6946ebe620-20240508
+        version: 19.0.0-beta-6946ebe620-20240508
       react-dom:
-        specifier: ^15.0.1
-        version: 15.7.0(react@15.7.0)
+        specifier: 19.0.0-beta-6946ebe620-20240508
+        version: 19.0.0-beta-6946ebe620-20240508(react@19.0.0-beta-6946ebe620-20240508)
       react-github-corner:
         specifier: ^0.3.0
-        version: 0.3.0(react@15.7.0)
+        version: 0.3.0(react@19.0.0-beta-6946ebe620-20240508)
       react-title-component:
         specifier: ^1.0.1
         version: 1.0.1
@@ -62,7 +62,7 @@ importers:
         version: 3.5.0
       enzyme:
         specifier: ^2.3.0
-        version: 2.9.1(react@15.7.0)
+        version: 2.9.1(react@19.0.0-beta-6946ebe620-20240508)
       eslint:
         specifier: ^2.11.1
         version: 2.13.1
@@ -74,7 +74,7 @@ importers:
         version: 2.5.3
       react-addons-test-utils:
         specifier: ^15.1.0
-        version: 15.6.2(react-dom@15.7.0(react@15.7.0))
+        version: 15.6.2(react-dom@19.0.0-beta-6946ebe620-20240508(react@19.0.0-beta-6946ebe620-20240508))
       webpack:
         specifier: ^1.12.9
         version: 1.15.0
@@ -191,9 +191,6 @@ packages:
   arraybuffer.prototype.slice@1.0.3:
     resolution: {integrity: sha512-bMxMKAjg13EBSVscxTaYA4mRc5t1UAXa2kXiGTNfZ079HIWXEkKmkgFrh/nJqamaLSrXO5H4WFFkPEaLJWbs3A==}
     engines: {node: '>= 0.4'}
-
-  asap@2.0.6:
-    resolution: {integrity: sha512-BSHWgDSAiKs50o2Re8ppvp3seVHXSRM44cdSsT9FfNEUUZLOGWVCsiWaRPWM1Znn+mqZ1OfVZ3z3DWEzSp7hRA==}
 
   asn1@0.2.6:
     resolution: {integrity: sha512-ix/FxPn0MDjeyJ7i/yoHGFt/EX6LyNbxSEhPPXODPL+KB0VPk86UYfL0lMdy+KCnv+fmvIzySwaK5COwqVbWTQ==}
@@ -735,10 +732,6 @@ packages:
     resolution: {integrity: sha512-XgZ0pFcakEUlbwQEVNg3+QAis1FyTL3Qel9FYy8pSkQqoG3PNoT0bOCQtOXcOkur21r2Eq2kI+IE+gsmAEVlYw==}
     engines: {node: '>=0.10.0'}
 
-  core-js@1.2.7:
-    resolution: {integrity: sha512-ZiPp9pZlgxpWRu0M+YWbm6+aQ84XEfH1JRXvfOc/fILWI0VKhLC2LX13X1NYq4fULzLMq7Hfh43CSo2/aIaUPA==}
-    deprecated: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
-
   core-js@2.6.12:
     resolution: {integrity: sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==}
     deprecated: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
@@ -748,9 +741,6 @@ packages:
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
-
-  create-react-class@15.7.0:
-    resolution: {integrity: sha512-QZv4sFWG9S5RUvkTYWbflxeZX+JG7Cz0Tn33rQBJ+WFQTqTfUTjMjiv9tnfXazjsO5r0KhPs+AqCjyrQX6h2ng==}
 
   crypto-browserify@3.3.0:
     resolution: {integrity: sha512-9n5nGl6D8zb29Ui8Ji8pVdUIE3RUe6A9zQf2iLPjFKftnkkkJBCGb7TkYAFNjt9nfsvZTLL52CwxzS9Tw7Bujw==}
@@ -905,9 +895,6 @@ packages:
   encodeurl@1.0.2:
     resolution: {integrity: sha512-TPJXq8JqFaVYm2CWmPvnP2Iyo4ZSM7/QKcSmuMLDObfpH5fi7RUGmd/rTDf+rut/saiDiQEeVTNgAmJEdAOx0w==}
     engines: {node: '>= 0.8'}
-
-  encoding@0.1.13:
-    resolution: {integrity: sha512-ETBauow1T35Y/WZMkio9jiM0Z5xjHHmJ4XmjZOq1l/dXz3lr2sRn87nJy20RupqSh1F2m3HHPSp8ShIPQJrJ3A==}
 
   enhanced-resolve@0.9.1:
     resolution: {integrity: sha512-kxpoMgrdtkXZ5h0SeraBS1iRntpTpQ3R8ussdb38+UAFnMGX5DDyJXePm+OCHOcoXvHDw7mc2erbJBpDnl7TPw==}
@@ -1100,9 +1087,6 @@ packages:
   faye-websocket@0.11.4:
     resolution: {integrity: sha512-CzbClwlXAuiRQAlUyfqPgvPoNKTckTPGfwZV4ZdAhVcP2lh9KUxJg2b5GkE7XbjKQ3YJnQ9z6D9ntLAlB+tP8g==}
     engines: {node: '>=0.8.0'}
-
-  fbjs@0.8.18:
-    resolution: {integrity: sha512-EQaWFK+fEPSoibjNy8IxUtaFOMXcWsY0JaVrQoZR9zC8N2Ygf9iDITPWjUTVIax95b6I742JFLqASHfsag/vKA==}
 
   figures@1.7.0:
     resolution: {integrity: sha512-UxKlfCRuCBxSXU4C6t9scbDyWZ4VlaFFdojKtzJuSkuOBQ5CNFum+zZXFwHjo+CxBC1t6zlYPgHIgFjL8ggoEQ==}
@@ -1346,10 +1330,6 @@ packages:
     resolution: {integrity: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==}
     engines: {node: '>=0.10.0'}
 
-  iconv-lite@0.6.3:
-    resolution: {integrity: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==}
-    engines: {node: '>=0.10.0'}
-
   ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
 
@@ -1531,10 +1511,6 @@ packages:
     resolution: {integrity: sha512-nA2hv5XIhLR3uVzDDfCIknerhx8XUKnstuOERPNNIinXG7v9u+ohXF67vxm4TPTEPU6lm61ZkwP3c9PCB97rhg==}
     engines: {node: '>= 0.4'}
 
-  is-stream@1.1.0:
-    resolution: {integrity: sha512-uQPm8kcs47jx38atAcWTVxyltQYoPT68y9aWYdV6yWXSyW8mzSat0TL6CiWdZeCdF3KrAvpVtnHbTv4RN+rqdQ==}
-    engines: {node: '>=0.10.0'}
-
   is-string@1.0.7:
     resolution: {integrity: sha512-tE2UXzivje6ofPW7l23cjDOMa09gb7xlAqG6jG5ej6uPV32TlWP3NKPigtaGeHNu9fohccRYvIiZMfOOnOYUtg==}
     engines: {node: '>= 0.4'}
@@ -1573,9 +1549,6 @@ packages:
   isobject@3.0.1:
     resolution: {integrity: sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==}
     engines: {node: '>=0.10.0'}
-
-  isomorphic-fetch@2.2.1:
-    resolution: {integrity: sha512-9c4TNAKYXM5PRyVcwUZrF3W09nQ+sO7+jydgs4ZGW9dhsLG2VOlISJABombdQqQRXCwuYG3sYV/puGf5rp0qmA==}
 
   isstream@0.1.2:
     resolution: {integrity: sha512-Yljz7ffyPbrLpLngrMtZ7NduUgVvi6wG9RJ9IUcyCd59YQ911PBJphODUcbOVbqYfxe1wuYf/LJ8PauMRwsM/g==}
@@ -1829,9 +1802,6 @@ packages:
   next-tick@1.1.0:
     resolution: {integrity: sha512-CXdUiJembsNjuToQvxayPZF9Vqht7hewsvy2sOWafLvi2awflj9mOC6bHIg50orX8IJvWKY9wYQ/zB2kogPslQ==}
 
-  node-fetch@1.7.3:
-    resolution: {integrity: sha512-NhZ4CsKx7cYm2vSrBAr2PvFOe6sWDf0UYLRqA6svUYg7+/TSfVAu49jYC4BvQ4Sms9SZgdqGBgroqfDhJdTyKQ==}
-
   node-libs-browser@0.7.0:
     resolution: {integrity: sha512-V0EeBff5/nauAta4yGYMdn/CYXpn2KYcE8r6rwU9qJDXG6wMrBhtWVfoKWphSvsnX+mZk6DzaGSO+Yz/MGBAGQ==}
 
@@ -2019,9 +1989,6 @@ packages:
     resolution: {integrity: sha512-UdA8mJ4weIkUBO224tIarHzuHs4HuYiJvsuGT7j/SPQiUJVjYvNDBIPa0hAorduOfjGohB/qHWRa/lrrWX/mXw==}
     engines: {node: '>=0.4.0'}
 
-  promise@7.3.1:
-    resolution: {integrity: sha512-nolQXZ/4L+bP/UGlkfaIujX9BKxGwmQ9OT4mOt5yvy8iK1h3wqTEJCijzGANTCCl9nWjY41juyAn2K3Q1hLLTg==}
-
   prop-types@15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
 
@@ -2078,10 +2045,10 @@ packages:
     peerDependencies:
       react-dom: ^15.4.2
 
-  react-dom@15.7.0:
-    resolution: {integrity: sha512-mpjXqC2t1FuYsILOLCj0kg6pbg460byZkVA/80VtDmKU/pYmoTdHOtaMcTRIDiyXLz4sIur0cQ04nOC6iGndJg==}
+  react-dom@19.0.0-beta-6946ebe620-20240508:
+    resolution: {integrity: sha512-ql+rmLSGnZljNdsDPPOIUOJ6le2Yycj/5Xmq6wQJiLjfYu7QgykcjyKlcldrLovhgvXjs4IV3HLlhOu9Bo/5fQ==}
     peerDependencies:
-      react: ^15.7.0
+      react: 19.0.0-beta-6946ebe620-20240508
 
   react-github-corner@0.3.0:
     resolution: {integrity: sha512-zW+TreQBS8vCBNaRxZggy2eMmruzQAH5OidT0cbWsLJFP6hzFq2IrihP52b5YoAv1WRLq9IvK92tDfbNVjVqDw==}
@@ -2095,8 +2062,8 @@ packages:
   react-title-component@1.0.1:
     resolution: {integrity: sha512-6TnL1UTsYmPo+Xzc0iD3L6ISM2CJ0s5lY6I9QeGjdngp++NSutjCnqrwXjQW/qn4RKbMygEL5DWLE14u7Oli7Q==}
 
-  react@15.7.0:
-    resolution: {integrity: sha512-5/MMRYmpmM0sMTHGLossnJCrmXQIiJilD6y3YN3TzAwGFj6zdnMtFv6xmi65PHKRV+pehIHpT7oy67Sr6s9AHA==}
+  react@19.0.0-beta-6946ebe620-20240508:
+    resolution: {integrity: sha512-oopuXTmA4olWtL8p3jAobiFvYsljLkzAQL21YVc44qjz32WtGmbKFHYSe1EL6Dy/v8PEWlaGBQssJPv5RFVQcw==}
     engines: {node: '>=0.10.0'}
 
   readable-stream@2.3.8:
@@ -2226,6 +2193,9 @@ packages:
 
   sax@1.3.0:
     resolution: {integrity: sha512-0s+oAmw9zLl1V1cS9BtZN7JAd0cW5e0QH4W3LWEK6a4LaLEA2OTpGYWDY+6XasBLtz6wkm3u1xRw95mRuJ59WA==}
+
+  scheduler@0.25.0-beta-6946ebe620-20240508:
+    resolution: {integrity: sha512-g4Lk1FLKQzMXms4675kO5c+D05d2Rol4QlCqoWuBUaMdON8xI0/eDXbVgQoq0EgOa1QWAGNBSrQ3DUT0r/LXNw==}
 
   send@0.18.0:
     resolution: {integrity: sha512-qqWzuOjSFOuqPjFe4NOsMLafToQQwBSOEpS+FwEt3A2V3vKubTquT3vmLTQpFgMXp8AlFWFuP1qKaJZOtPpVXg==}
@@ -2523,9 +2493,6 @@ packages:
   typedarray@0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
 
-  ua-parser-js@0.7.37:
-    resolution: {integrity: sha512-xV8kqRKM+jhMvcHWUKthV9fNebIzrNy//2O9ZwWcfiBFR5f25XVZPLlEajk/sf3Ra15V92isyQqnIEXRDaZWEA==}
-
   uglify-js@2.7.5:
     resolution: {integrity: sha512-RvbIYn4DIadCg1MV7YP7OrpxnVrtEieZzbK0KSQvwWGAHojqWJxInkQhmtYGRo9PTwwkJkljIgzMyA1VitEc4Q==}
     engines: {node: '>=0.8.0'}
@@ -2652,9 +2619,6 @@ packages:
 
   whatwg-encoding@1.0.5:
     resolution: {integrity: sha512-b5lim54JOPN9HtzvK9HFXvBma/rnfFeqsic0hSpjtDbVxR3dJKLc+KB4V6GgiGOvl7CY/KNh8rxSo9DKQrnUEw==}
-
-  whatwg-fetch@3.6.20:
-    resolution: {integrity: sha512-EqhiFU6daOA8kpjOWTL0olhVOF3i7OrFzSYiGsEMB8GcXS+RrzauAERX65xMeNWVqxA6HXH2m69Z9LaKKdisfg==}
 
   whatwg-url@4.8.0:
     resolution: {integrity: sha512-nUvUPuenPFtPfy/X+dAYh/TfRbTBlnXTM5iIfLseJFkkQewmpG9pGR6i87E9qL+lZaJzv+99kkQWoGOtLfkZQQ==}
@@ -2796,8 +2760,6 @@ snapshots:
       get-intrinsic: 1.2.4
       is-array-buffer: 3.0.4
       is-shared-array-buffer: 1.0.3
-
-  asap@2.0.6: {}
 
   asn1@0.2.6:
     dependencies:
@@ -3696,18 +3658,11 @@ snapshots:
 
   copy-descriptor@0.1.1: {}
 
-  core-js@1.2.7: {}
-
   core-js@2.6.12: {}
 
   core-util-is@1.0.2: {}
 
   core-util-is@1.0.3: {}
-
-  create-react-class@15.7.0:
-    dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
 
   crypto-browserify@3.3.0:
     dependencies:
@@ -3864,10 +3819,6 @@ snapshots:
 
   encodeurl@1.0.2: {}
 
-  encoding@0.1.13:
-    dependencies:
-      iconv-lite: 0.6.3
-
   enhanced-resolve@0.9.1:
     dependencies:
       graceful-fs: 4.2.11
@@ -3876,7 +3827,7 @@ snapshots:
 
   entities@1.1.2: {}
 
-  enzyme@2.9.1(react@15.7.0):
+  enzyme@2.9.1(react@19.0.0-beta-6946ebe620-20240508):
     dependencies:
       cheerio: 0.22.0
       function.prototype.name: 1.1.6
@@ -3887,7 +3838,7 @@ snapshots:
       object.entries: 1.1.8
       object.values: 1.2.0
       prop-types: 15.8.1
-      react: 15.7.0
+      react: 19.0.0-beta-6946ebe620-20240508
       uuid: 3.4.0
 
   errno@0.1.8:
@@ -4207,16 +4158,6 @@ snapshots:
     dependencies:
       websocket-driver: 0.7.4
 
-  fbjs@0.8.18:
-    dependencies:
-      core-js: 1.2.7
-      isomorphic-fetch: 2.2.1
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
-      promise: 7.3.1
-      setimmediate: 1.0.5
-      ua-parser-js: 0.7.37
-
   figures@1.7.0:
     dependencies:
       escape-string-regexp: 1.0.5
@@ -4504,10 +4445,6 @@ snapshots:
     dependencies:
       safer-buffer: 2.1.2
 
-  iconv-lite@0.6.3:
-    dependencies:
-      safer-buffer: 2.1.2
-
   ieee754@1.2.1: {}
 
   ignore@3.3.10: {}
@@ -4682,8 +4619,6 @@ snapshots:
     dependencies:
       call-bind: 1.0.7
 
-  is-stream@1.1.0: {}
-
   is-string@1.0.7:
     dependencies:
       has-tostringtag: 1.0.2
@@ -4715,11 +4650,6 @@ snapshots:
       isarray: 1.0.0
 
   isobject@3.0.1: {}
-
-  isomorphic-fetch@2.2.1:
-    dependencies:
-      node-fetch: 1.7.3
-      whatwg-fetch: 3.6.20
 
   isstream@0.1.2: {}
 
@@ -4993,11 +4923,6 @@ snapshots:
 
   next-tick@1.1.0: {}
 
-  node-fetch@1.7.3:
-    dependencies:
-      encoding: 0.1.13
-      is-stream: 1.1.0
-
   node-libs-browser@0.7.0:
     dependencies:
       assert: 1.5.1
@@ -5180,10 +5105,6 @@ snapshots:
 
   progress@1.1.8: {}
 
-  promise@7.3.1:
-    dependencies:
-      asap: 2.0.6
-
   prop-types@15.8.1:
     dependencies:
       loose-envify: 1.4.0
@@ -5232,33 +5153,24 @@ snapshots:
       iconv-lite: 0.4.24
       unpipe: 1.0.0
 
-  react-addons-test-utils@15.6.2(react-dom@15.7.0(react@15.7.0)):
+  react-addons-test-utils@15.6.2(react-dom@19.0.0-beta-6946ebe620-20240508(react@19.0.0-beta-6946ebe620-20240508)):
     dependencies:
-      react-dom: 15.7.0(react@15.7.0)
+      react-dom: 19.0.0-beta-6946ebe620-20240508(react@19.0.0-beta-6946ebe620-20240508)
 
-  react-dom@15.7.0(react@15.7.0):
+  react-dom@19.0.0-beta-6946ebe620-20240508(react@19.0.0-beta-6946ebe620-20240508):
     dependencies:
-      fbjs: 0.8.18
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
-      prop-types: 15.8.1
-      react: 15.7.0
+      react: 19.0.0-beta-6946ebe620-20240508
+      scheduler: 0.25.0-beta-6946ebe620-20240508
 
-  react-github-corner@0.3.0(react@15.7.0):
+  react-github-corner@0.3.0(react@19.0.0-beta-6946ebe620-20240508):
     dependencies:
-      react: 15.7.0
+      react: 19.0.0-beta-6946ebe620-20240508
 
   react-is@16.13.1: {}
 
   react-title-component@1.0.1: {}
 
-  react@15.7.0:
-    dependencies:
-      create-react-class: 15.7.0
-      fbjs: 0.8.18
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
-      prop-types: 15.8.1
+  react@19.0.0-beta-6946ebe620-20240508: {}
 
   readable-stream@2.3.8:
     dependencies:
@@ -5419,6 +5331,8 @@ snapshots:
   safer-buffer@2.1.2: {}
 
   sax@1.3.0: {}
+
+  scheduler@0.25.0-beta-6946ebe620-20240508: {}
 
   send@0.18.0(supports-color@3.2.3):
     dependencies:
@@ -5782,8 +5696,6 @@ snapshots:
 
   typedarray@0.0.6: {}
 
-  ua-parser-js@0.7.37: {}
-
   uglify-js@2.7.5:
     dependencies:
       async: 0.2.10
@@ -5934,8 +5846,6 @@ snapshots:
   whatwg-encoding@1.0.5:
     dependencies:
       iconv-lite: 0.4.24
-
-  whatwg-fetch@3.6.20: {}
 
   whatwg-url@4.8.0:
     dependencies:

@@ -1,36 +1,31 @@
 var debug = process.env.NODE_ENV !== "production";
-var webpack = require('webpack');
 var path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   context: path.join(__dirname, "app"),
-  devtool: debug ? "inline-sourcemap" : null,
+  devtool: debug ? "inline-source-map" : null,
   entry: "./js/app.js",
   module: {
-    loaders: [
+    rules: [
       {
-        test: /\.jsx?$/,
-        exclude: /(node_modules|bower_components)/,
+        test: /\.(tsx?|jsx?)$/,
         loader: 'babel-loader',
-        query: {
-          presets: ['react', 'es2015', 'stage-0'],
-          plugins: ['react-html-attrs', 'transform-class-properties', 'transform-decorators-legacy'],
-        }
-      }
+      },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
     ]
+  },
+  resolve: {
+    extensions: ['.js', '.jsx', '.ts', '.tsx']
   },
   output: {
     path: __dirname + "/app/",
     filename: "bundle.js"
   },
-  plugins: debug ? [] : [
-    new webpack.DefinePlugin({
-      'process.env': {
-        'NODE_ENV': JSON.stringify('production')
-      }
-    }),
-    new webpack.optimize.DedupePlugin(),
-    new webpack.optimize.OccurenceOrderPlugin(),
-    new webpack.optimize.UglifyJsPlugin({ mangle: false, sourcemap: false }),
-  ],
+  plugins: [
+    new HtmlWebpackPlugin({ template: './index.html'})
+]
 };

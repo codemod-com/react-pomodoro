@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
-import Title from 'react-title-component';
+// import Title from 'react-title-component';
 import Mousetrap from 'mousetrap';
 import GithubCorner from 'react-github-corner';
 
@@ -217,7 +217,7 @@ export default class Pomodoro extends React.Component {
 					bannerColor="#2BA0A0"
 					octoColor="#272727"
 				/>
-				<Title render={this.state.title} />
+				{/* <Title render={this.state.title} /> */}
 				{/* Main section
         ------------------------------- */}
 				<div className="main">
